@@ -1,0 +1,4 @@
+
+
+# trigger docker cloud build
+script: curl -X POST https://cloud.docker.com/api/build/v1/source/a05eddee-fae5-4b8c-8fdb-393b21c53dff/trigger/44b3cfda-313e-4bb5-9526-860500aff515/call/
